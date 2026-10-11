@@ -13,3 +13,5 @@ public class Product {
     public String getName() { return name; }
     public double getPrice() { return price; }
 }
+
+// # 25 -: no errors but the out put won't show up
