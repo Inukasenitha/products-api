@@ -25,13 +25,17 @@ public class HelloController {
 
     @GetMapping("/status")
     public String status(){
-        return "API running -" + LocalDate.now().toString();
+        return "Today's date-" + LocalDate.now().toString();
     }
 
     @GetMapping("/goodbye")
     public String goodbye(){return "goodbye";}
 
+
     //TODO (Activity 3): add your /goodbye endpoint here.
 
 
 }
+
+
+
